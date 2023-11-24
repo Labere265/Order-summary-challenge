@@ -1,0 +1,160 @@
+*{
+	box-sizing:border-box;
+}
+@font-face {
+	font-family: myFont;
+	src:url("fomt/RedHatDisplay-Bold.ttf");
+}
+@font-face {
+	font-family: myFontlight;
+	src:url("fomt/RedHatDisplay-Light.ttf");
+}
+@font-face {
+	font-family: myFontRegular;
+	src:url("fomt/RedHatDisplay-Regular.ttf");
+}
+body {
+		background: url("images/pattern-background-mobile.svg") hsl(225, 100%, 94%) no-repeat;
+}
+ .container_1 {
+		background: white;
+		margin:35px auto;
+		height: auto;
+		padding: 0px;
+		text-align: center;
+		/* width: 380px; */
+		width: 367px;
+		border-radius:20px;
+}
+.hero_pic>img{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+}
+.wording h2{
+		font-weight: 900;
+		font-size: 29px;
+		color:hsl(223, 47%, 23%);
+		font-family: myFont;
+}
+.wording p{
+		
+		font-size: 16px;
+		color:hsl(224, 23%, 55%);
+		font-family:myFontRegular;
+		font-weight:500;
+}
+.plan-container {
+		background: hsl(225, 100%, 98%);
+		margin:0 auto;
+		padding: 3px;
+		border-radius:18px;
+		width: 80%;
+		height: auto;
+		padding: 0px 12px;
+}
+.plan-container::after{
+		content:" ";
+		display: block;
+		clear: both;
+}
+.plan-container img{
+	width: 16.39%;
+	float: left;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+.plan-container a{
+		color:hsl(245, 75%, 52%);
+		width: 25.33%;
+		font-weight: 700;
+		font-size: 16px;
+		font-family:myFontRegular;
+		float: right;
+		border: none;
+		margin-top:35px;
+		margin-bottom: 35px;
+		}
+.plan-container p{
+		margin-top: 20px;
+		line-height: 20px;
+		float: left;
+		font-size: 16px;
+		width: 48.33%;
+		color:hsl(224, 23%, 55%);
+		font-weight: 700;
+		font-family:myFontRegular;
+
+}
+.plan-container p::first-line{
+		color:hsl(223, 47%, 23%);
+		font-weight: 700;
+}
+.plan-container a:hover{
+		text-decoration:none;
+}
+.plan-container a:active{
+		text-decoration:none;
+}
+.button1 button{
+		background:hsl(245, 75%, 52%);
+		font-family:Red Hat Display;
+		padding: 5px 35px;
+		width: 70%;
+		height: 40px;
+		outline: none;
+		border: none;
+		border-radius:6px;
+		box-shadow: .2px 9px 21px -3px hsl(224, 23%, 55%);
+		
+}
+.button1>a>button{
+		text-decoration:none;
+		color: white;
+		font-weight: 500;
+		font-size: 16px;
+		font-family: myFont;
+}
+.button1>a:link {
+		text-decoration:none;
+ }
+.button1>a>button:hover{
+		opacity: 79%;
+		cursor:pointer;
+}
+.button1>a>button:active{
+		opacity: 79%;
+		cursor:pointer;
+}
+.oidea{
+	padding-bottom: 23px;
+}
+.oidea>a {
+		text-decoration: none;
+ 		font-weight: 500;
+		font-size: 18px;
+		color:hsl(224, 23%, 55%);
+		font-family:myFont;
+}
+.oidea>a:hover {
+		color:hsl(223, 47%, 23%);
+ }
+ 
+.attribution { 
+		font-size: 11px;
+		text-align: center; 
+		font-family:myFont;
+		font-weight:500;
+	}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width:375px){
+	body {
+		background: url("images/pattern-background-desktop.svg") hsl(225, 100%, 94%) no-repeat;
+	}
+
+}
