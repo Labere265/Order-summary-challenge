@@ -3,18 +3,18 @@
 }
 @font-face {
 	font-family: myFont;
-	src:url("fomt/RedHatDisplay-Bold.ttf");
+	src:url("RedHatDisplay-Bold.ttf");
 }
 @font-face {
 	font-family: myFontlight;
-	src:url("fomt/RedHatDisplay-Light.ttf");
+	src:url("RedHatDisplay-Light.ttf");
 }
 @font-face {
 	font-family: myFontRegular;
-	src:url("fomt/RedHatDisplay-Regular.ttf");
+	src:url("RedHatDisplay-Regular.ttf");
 }
 body {
-		background: url("images/pattern-background-mobile.svg") hsl(225, 100%, 94%) no-repeat;
+		background: url("pattern-background-mobile.svg") hsl(225, 100%, 94%) no-repeat;
 }
  .container_1 {
 		background: white;
@@ -154,7 +154,7 @@ body {
 
 @media only screen and (min-width:375px){
 	body {
-		background: url("images/pattern-background-desktop.svg") hsl(225, 100%, 94%) no-repeat;
+		background: url("pattern-background-desktop.svg") hsl(225, 100%, 94%) no-repeat;
 	}
 
 }
